@@ -1,0 +1,5 @@
+# Asset attribution
+
+- **Astronaut demo**: NASA portrait of Eileen Collins, Great Images in NASA; public domain according to the [scikit-image data documentation](https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.astronaut). The source [scikit-image PNG](https://raw.githubusercontent.com/scikit-image/scikit-image/v0.22.0/skimage/data/astronaut.png) was converted to JPEG for the demo. The comparison images are produced by the model from this source; the prediction is not an assertion about original colors or an endorsement.
+- **Training dataset**: Alex Krizhevsky, [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html), accessed in the [University of Toronto Hugging Face parquet distribution](https://huggingface.co/datasets/uoft-cs/cifar10/tree/0b27149/plain_text). No training data or raw notebook is redistributed by this app.
+- **Model provenance**: independently implemented, AI-assisted reproduction of the one-level encoder/decoder-with-skip design from the linked project reference. The checkpoint here was trained separately, not extracted from the reference notebook.

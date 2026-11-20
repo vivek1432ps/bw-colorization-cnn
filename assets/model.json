@@ -1,0 +1,11 @@
+{
+  "format": "numpy-state-dict-fp16",
+  "size": 32,
+  "sha256": "b8481b6e9410745151e40577f618575374604a47d5a6d5a51f2bde5547cc1eaa",
+  "parts": [
+    "unet-fp16-01.bin",
+    "unet-fp16-02.bin",
+    "unet-fp16-03.bin",
+    "unet-fp16-04.bin"
+  ]
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.venv/
+.work/
+assets/unet-cifar10.pt

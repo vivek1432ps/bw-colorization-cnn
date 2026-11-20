@@ -1,0 +1,24 @@
+{
+  "architecture": "one-level LAB U-Net",
+  "device": "CPU",
+  "dataset": "CIFAR-10",
+  "train_sha256": "8428b53a88a11ac374111006708df51469e315a22ac6d66470afd9c78d2ae883",
+  "test_sha256": "841389e6f2d64f28bf17310e430aebac20ec3ba611a3c5e231dc93c645ce84de",
+  "seed": 17,
+  "size": 32,
+  "train_images": 3072,
+  "validation_images": 512,
+  "test_images": 1024,
+  "epochs": 3,
+  "validation_ab_mae": [
+    9.476,
+    9.291,
+    9.149
+  ],
+  "selected_epoch": 3,
+  "test_ab_mae": 9.005,
+  "neutral_chroma_test_ab_mae": 9.338,
+  "elapsed_seconds": 62.6,
+  "published_fp16_test_ab_mae": 9.005,
+  "example_fp16_mean_rgb_difference": 0.001394
+}
